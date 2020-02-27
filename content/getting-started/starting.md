@@ -14,7 +14,7 @@ toc= true
 
 While there are many ways to install Tremor, be it as a package or compiling it form source this quickstart guide will use a Docker image to make it as painless as possible to get a first instance of tremor running.
 
-With that a running versin of [Docker](https://docker.io) on a system with an internet connection is required.
+With that a running version of [Docker](https://docker.io) on a system with an internet connection is required.
 
 ### Get Tremor
 
@@ -26,7 +26,7 @@ docker pull tremorproject/tremor:latest
 
 ### Configuring Tremor
 
-If you just want to see tremor start, you can skip this step, but lets be real, you prbably want to make tremor do something more interesting then printing a few numbers on the screen.
+If you just want to see tremor start, you can skip this step, but lets be real, you probably want to make tremor do something more interesting than printing a few numbers on the screen.
 
 The tremor Docker image is configured by mounting a configuration folder to `/etc/tremor`
 
@@ -48,7 +48,7 @@ For details on the files plese consult the [documentation](https://docs.tremor.r
 
 ### Running
 
-Once downaloaded and configured starting the tremor docker image can be done with
+Once downloaded and configured starting the tremor docker image can be done with
 
 ```bash
 docker run -v host/path/to/etc/tremor:/etc/tremor tremor-runtime
